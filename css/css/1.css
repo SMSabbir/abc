@@ -1,0 +1,97 @@
+body{
+	background-image: url(ground.jpg);
+	background-repeat: no-repeat;
+	background-size: 1350px 654px;
+}
+#header{
+	width: 1123px;
+	height: 40px;
+	margin-left: 104px;
+}
+#menu{
+	width: 1123px;
+	height: 40px;
+	background-image: url(ho.gif);
+	background-repeat: repeat-x;
+	margin-left: 104px;
+	margin-top: 105px;
+
+}
+#menu ul{
+	list-style: none;
+
+
+}
+#menu ul li{
+	background-image: url(ho.gif);
+	margin: 2px;
+	width: 150px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	float: left;
+	border-radius: 8px;
+}
+#menu ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+#menu ul li a:hover{
+	background-color: green;
+	border-radius: 8px;
+
+}
+.clock{
+		height:30px;
+		width:95px;
+		font-family:lobster-two;
+		text-align:right;
+		margin-left: 1000px;
+		line-height: 5px;
+		position: absolute;
+		font-size:17px;
+		color:white;
+	  }
+	  #content{
+	  	width: auto;
+	  	height: 400px;
+	  	margin-left: 400px;
+	  	
+	  }
+	  #one{
+		margin-left: 10px;
+		
+	  }
+	  #two{
+	  	margin-left: 50px;
+	  }
+	  #three{
+	  	margin-left: 40px;
+	  }
+	  #four{
+	  	margin-left: 25px;
+	  }
+	  #five{
+	  	margin-left: 20px;
+	  }
+	  #six{
+	  	margin-left: 58px;
+	  	
+	  }
+	  #seven{margin-left: 38px;
+
+	  	
+	  }
+	  #eight{
+	  	margin-left: 110px;
+	  }
+#footer{
+	text-align: center;
+	width: 1123px;
+	height: 40px;
+	background-image: url(ho.gif);
+	background-repeat: repeat-x;
+	margin-left: 104px;
+	line-height: 40px;
+}

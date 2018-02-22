@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="doctor.css" type="text/css">
+</head>
+<body>
+	<div id="header">
+		 <div class="clock">
+      <p id="demo"></p>
+      <script>
+      var myVar=setInterval(function(){myTimer()},1000);
+
+      function myTimer()
+      {
+      var d=new Date();
+      var t=d.toLocaleTimeString();
+      document.getElementById("demo").innerHTML=t;
+      }
+    </script>
+
+    </div>
+	</div>
+	<div id="menu">
+        <ul>
+         <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="doctorlist.html">Doctor</a></li>
+          <li><a href="addoctor.html">Add new doctor</a></li>
+          <li><a href="patientlist.html">Patient</a></li>
+          <li><a href="addpatient.html">Register</a></li>
+          <li><a href="appointlist.html">Appointments</a></li>
+        </ul>
+     </div>
+	<div id="content"><h2 style="text-decoration: underline; padding-left: 200px;">Doctor list</h2>
+		<div class="doctor">
+		<table>
+		  <tr>
+			<th id="sl">ID</th>
+			<th>Dr Name</th>
+			<th>Specialist</th>
+			<th>Qualification </th>
+			<th>Visiting Hours </th>
+			<th>Chamber</th>
+			<th>Phone</th>
+		  </tr>
+		  <tr>
+			<td>01</td>
+			<td><a href="">Dr. A. B. M. Yunus</a></td>
+			<td>Hematology</td>
+			<td>MBBS (India)</td>
+			<td>Everyday 2-5pm</td>
+			<td>Green View</td>
+			<td>+880-2-861031</td>
+		  </tr>
+		  <tr>
+			<td>02</td>
+			<td><a href="">Dr. Shirajul Islam</a></td>
+			<td>Dermatology </td>
+			<td>DDSC(UK)</td>
+			<td></td>
+			<td>Ibns D & I C</td>
+			<td>+8801719470043</td>
+		  </tr>
+		  <tr>
+			<td>03</td>
+			<td><a href="">Md. Saidur Rahman</a></td>
+			<td>Surgery</td>
+			<td> FCPS(Surgery)</td>
+			<td></td>
+			<td>Ibn Sina</td>
+			<td>+8801717351631</td>
+		  </tr>
+		  <tr>
+			<td>04</td>
+			<td><a href="">Dr. (Rtd) N.I. Khan</a></td>
+			<td>Medicine</td>
+			<td>FACP(USA)</td>
+			<td></td>
+			<td>Monowara Hospital </td>
+			<td>+880-2-831-8135</td>
+		  </tr>
+		 
+		  <tr>
+			<td>06</td>
+			<td><a href="">Dr. A F M Anowar Hossain</a></td>
+			<td>Surgical </td>
+			<td>FCPS</td>
+			<td></td>
+			<td>Ibn Sina</td>
+			<td>+8801717351631 </td>
+		  </tr>
+		</table>
+	</div>
+
+    
+	</div>
+	<div id="footer">All documents are reserved by &copy Md Shirajul Islam</div>
+</body>
+</html>

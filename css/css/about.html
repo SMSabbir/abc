@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="3.css" type="text/css">
+</head>
+<body>
+	<div id="header">
+		 <div class="clock">
+      <p id="demo"></p>
+      <script>
+      var myVar=setInterval(function(){myTimer()},1000);
+
+      function myTimer()
+      {
+      var d=new Date();
+      var t=d.toLocaleTimeString();
+      document.getElementById("demo").innerHTML=t;
+      }
+    </script>
+
+    </div>
+	</div>
+	<div id="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="doctorlist.html">Doctor</a></li>
+          <li><a href="addoctor.html">Add new doctor</a></li>
+          <li><a href="patientlist.html">Patient</a></li>
+          <li><a href="addpatient.html">Register</a></li>
+          <li><a href="appointlist.html">Appointments</a></li>
+        </ul>
+     </div>
+	<div id="content">
+    <img id="img" src="shiju.jpg" alt="Md Shirajul Islam" width="300" height="200" style="float: left;">
+		<h2 style="text-decoration: underline;">My details</h2>
+		<form action=" #" method="post" >
+			Name          => <b id="a">Md Shiral Islam<br></b>
+      Address       => <b id="b">Gaibandha<br></b>
+      Qualification => <b id="c">B.Sc. in ECE<br></b>
+      Institute     => <b id="d">Hajee Mohammad Danesh Sci & Tech University, Dinajpur<br></b>
+      Email-Id      => <b id="e">shirajultee@gmail.com<br></b>
+      Mobile        => <b id="f">01774327386<br></b>
+
+<p>I want to be a good web developer</p>
+		</form>
+	</div>
+	<div id="footer">All documents are reserved by &copy Md Shirajul Islam</div>
+</body>
+</html>

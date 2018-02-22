@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="appoitmentlist.css" type="text/css">
+</head>
+<body>
+	<div id="header">
+		 <div class="clock">
+      <p id="demo"></p>
+      <script>
+      var myVar=setInterval(function(){myTimer()},1000);
+
+      function myTimer()
+      {
+      var d=new Date();
+      var t=d.toLocaleTimeString();
+      document.getElementById("demo").innerHTML=t;
+      }
+    </script>
+
+    </div>
+	</div>
+	<div id="menu">
+        <ul>
+         <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="doctorlist.html">Doctor</a></li>
+          <li><a href="addoctor.html">Add new doctor</a></li>
+          <li><a href="patientlist.html">Patient</a></li>
+          <li><a href="addpatient.html">Register</a></li>
+          <li><a href="appointlist.html">Appointments</a></li>
+        </ul>
+     </div>
+	<div id="content"><h2 style="text-decoration: underline; padding-left: 200px;" >Appointment list</h2>
+		<div class="appoitmentlist">
+		<table>
+		  <tr>
+			<th id="sl">Appoitment No.</th>
+			<th>Patient Name</th>
+			<th>Doctor Name</th>
+			<th>Date </th>
+			<th>Time</th>
+		  </tr>
+		  <tr>
+			<td class="no" >01</td>
+			<td>Tazimul Islam</a></td>
+			<td>Dr. A. B. M. Yunus</td>
+			<td>12 Jan, 2018</td>
+			<td>2PM</td>
+		  </tr>
+		  <tr>
+			<td class="no" >02</td>
+			<td>Sirajul Islam</a></td>
+			<td>Dr. A F M Anowar Hossain </td>
+			<td>16 Jan, 2017</td>
+			<td>7PM</td>
+		  </tr>
+		  <tr>
+			<td class="no" >03</td>
+			<td>MD Moinul Islam</a></td>
+			<td>Dr. Sirajul Haque</td>
+			<td>15 Jan, 2018</td>
+			<td>6PM</td>
+		  </tr>
+		  <tr>
+			<td class="no" >04</td>
+			<td>Mst. Jahanara Khatun</a></td>
+			<td>Dr. A B M Shahidul Alam</td>
+			<td>12 Jan, 2017</td>
+			<td>5PM</td>
+		  </tr>
+		  <tr>
+			<td class="no" >05</td>
+			<td>Shumi Khatun</a></td>
+			<td>Md. Saidur Rahman</td>
+			<td>14Jan, 2017</td>
+			<td>3PM</td>
+		  </tr>
+		  <tr>
+			<td class="no" >06</td>
+			<td>Md Karim Ali</a></td>
+			<td>Dr. A B M Shahidul Alam </td>
+			<td>13Jan, 2017</td>
+			<td>4PM</td>
+		  </tr>
+		</table>
+	</div>
+  
+    
+	</div>
+	<div id="footer">All documents are reserved by &copy Md Shirajul Islam</div>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="patient.css" type="text/css">
+</head>
+<body>
+	<div id="header">
+		 <div class="clock">
+      <p id="demo"></p>
+      <script>
+      var myVar=setInterval(function(){myTimer()},1000);
+
+      function myTimer()
+      {
+      var d=new Date();
+      var t=d.toLocaleTimeString();
+      document.getElementById("demo").innerHTML=t;
+      }
+    </script>
+
+    </div>
+	</div>
+	<div id="menu">
+        <ul>
+         <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="doctorlist.html">Doctor</a></li>
+          <li><a href="addoctor.html">Add new doctor</a></li>
+          <li><a href="patientlist.html">Patient</a></li>
+          <li><a href="addpatient.html">Register</a></li>
+          <li><a href="appointlist.html">Appointments</a></li>
+        </ul>
+     </div>
+	<div id="content"><h2 style="text-decoration: underline; padding-left: 200px;">Patient list</h2>
+		<div class="patient">
+		<table>
+		
+		  <tr>
+			<th id="sl">ID</th>
+			<th>Name</th>
+			<th>Depertment</th>
+			<th>Room No </th>
+			<th>Bed No</th>
+		  </tr>
+		  <tr>
+			<td>01</td>
+			<td><a href="">Tazimul Islam</a></td>
+			<td>Hematology</td>
+			<td>303</td>
+			<td>H-3-5</td>
+		  </tr>
+		  <tr>
+			<td>02</td>
+			<td><a href="">Sirajul Islam</a></td>
+			<td>Dermatology </td>
+			<td>305</td>
+			<td>D-5-2</td>
+		  </tr>
+		  <tr>
+			<td>03</td>
+			<td><a href="">MD Moinul Islam</a></td>
+			<td>Surgery</td>
+			<td>102</td>
+			<td>S-2-4</td>
+		  </tr>
+		  <tr>
+			<td>04</td>
+			<td><a href="">Mst. Jahanara Khatun</a></td>
+			<td>Medicine</td>
+			<td>505</td>
+			<td>M-5-8</td>
+		  </tr>
+		  <tr>
+			<td>05</td>
+			<td><a href="">Shumi Khatun</a></td>
+			<td>Child</td>
+			<td>407</td>
+			<td>C-7-4</td>
+		  </tr>
+		  <tr>
+			<td>06</td>
+			<td><a href="">Md Karim Ali</a></td>
+			<td>Surgical </td>
+			<td>209</td>
+			<td>S-9-5</td>
+		  </tr>
+		  <tr>
+			<td>07</td>
+			<td><a href="">Madhob Kumar</a></td>
+			<td>Surgical </td>
+			<td>210</td>
+			<td>C-9-4</td>
+		  </tr>
+		  <tr>
+			<td>08</td>
+			<td><a href="">Tanmay Das</a></td>
+			<td>Backpain </td>
+			<td>211</td>
+			<td>G-9-4</td>
+		  </tr>
+		</table>
+	</div>
+    
+    
+	</div>
+	<div id="footer">All documents are reserved by &copy Md Shirajul Islam</div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="2.css" type="text/css">
+</head>
+<body>
+	<div id="header">
+		 <div class="clock">
+      <p id="demo"></p>
+      <script>
+      var myVar=setInterval(function(){myTimer()},1000);
+
+      function myTimer()
+      {
+      var d=new Date();
+      var t=d.toLocaleTimeString();
+      document.getElementById("demo").innerHTML=t;
+      }
+    </script>
+
+    </div>
+	</div>
+	<div id="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="doctorlist.html">Doctor</a></li>
+          <li><a href="addoctor.html">Add new doctor</a></li>
+          <li><a href="patientlist.html">Patient</a></li>
+          <li><a href="addpatient.html">Register</a></li>
+          <li><a href="appointlist.html">Appointments</a></li>
+        </ul>
+     </div>
+	<div id="content"><h2 style="text-decoration: underline; padding-left: 200px;">Add Patient</h2>
+		<form action="#" method="post">
+			<h4>Name      <input type="text" id="one"><br></h4>
+			<h4>Address   <input type="text" id="two"><br></h4>
+			<h4>Contact No<input type="number" id="three"><br></h4>
+			<h4>Desease   <input type="text" id="four"><br></h4>
+			<h4>Room No   <input type="number" id="five"><br></h4>
+			<h4>Bed No    <input type="number" id="six"><br></h4>
+						  <input type="submit" id="seven" value="Add">
+		</form>
+	</div>
+	<div id="footer">All documents are reserved by &copy Md Shirajul Islam</div>
+</body>
+</html>

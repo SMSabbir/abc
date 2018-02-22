@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="3.css" type="text/css">
+</head>
+<body>
+	<div id="header">
+		 <div class="clock">
+      <p id="demo"></p>
+      <script>
+      var myVar=setInterval(function(){myTimer()},1000);
+
+      function myTimer()
+      {
+      var d=new Date();
+      var t=d.toLocaleTimeString();
+      document.getElementById("demo").innerHTML=t;
+      }
+    </script>
+
+    </div>
+	</div>
+	<div id="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Doctor</a></li>
+          <li><a href="">Add new doctor</a></li>
+          <li><a href="">Patient</a></li>
+          <li><a href="">Register</a></li>
+          <li><a href="">Appointments</a></li>
+        </ul>
+     </div>
+	<div id="content">
+		<h2 style="text-decoration: underline;">Release Patient</h2>
+		<form action=" #" method="post" >
+			Patient Id <input type="number" id="one"><br>
+			<input id="two" type="submit" value="Discharge">
+		</form>
+	</div>
+	<div id="footer">All documents are reserved by &copy Md Shirajul Islam</div>
+</body>
+</html>
